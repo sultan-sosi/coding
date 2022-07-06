@@ -1,0 +1,103 @@
+*{
+
+  margin:0;
+  padding: 0;
+}
+body{
+  background-color: bisque;
+}
+
+.container{
+ 
+  background-color: rgb(83, 114, 74);
+  width:1100px;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: 1px 2px light;
+  color: beige;
+  padding: 10px;
+ 
+}
+header{
+
+  font-family: 'Fira Sans', sans-serif;
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Neonderthaw', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+}
+header img{
+  width:120px;
+  height: 120px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 10px;
+float: left;
+}
+
+header .nama{
+  padding: 40px;
+  float: left;
+}
+address{
+  float: right;
+  margin-top: 25px;
+  padding: 20px;
+
+}
+
+address p a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.clear{
+  clear: both;
+}
+hr{
+border: 4px solid;
+  color: white;
+  border-bottom: none;
+}
+
+/* personal information start*/
+
+main{
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Gentium Book Plus', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Neonderthaw', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+}
+.me{
+  float: left;
+  width:30%
+}
+.text{
+  font-size: 20px;
+  text-align:center;
+  float:right;
+  width: 70%;
+}
+
+.personal_information{
+margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.common{
+  border: 2px solid white;
+  width: 100%;
+  border-bottom: none;
+margin-top: 10px;
+
+}
+.man{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
